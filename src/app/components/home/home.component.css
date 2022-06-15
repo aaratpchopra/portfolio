@@ -1,0 +1,26 @@
+body {
+  height: 100vh;
+  color: white;
+}
+
+.main-div {
+  height: 100%;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  background-image: url("../../../assets/with-processor.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.about-me {
+  height: 50%;
+}
+
+.about-heading {
+  color: black;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Angular 1</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="is-size-2">Angular Commands</h2>
+      <hr />
+      <div class="ng-new">
+        <p>
+          <span class="has-text-weight-bold">
+            <a href="https://angular.io/cli/new" target="_blank">ng new</a>
+            [PROJECT_NAME]:
+          </span>
+          <span class="is-capitalized"> For Creation of a new Project.</span>
+        </p>
+        <h3 class="is-size-3">Usage</h3>
+        <div class="box terminal">$ ng new my-project</div>
+      </div>
+
+      <hr />
+
+      <div class="ng-version">
+        <p>
+          <span class="has-text-weight-bold">
+            <a href="https://angular.io/cli/version" target="_blank"
+              >ng --version:</a
+            ></span
+          >
+          <span class="is-capitalized">
+            Outputs the version of the CLI which is being used in the current
+            project.</span
+          >
+        </p>
+        <h3 class="is-size-3">Usage</h3>
+        <div class="box terminal">$ ng --version</div>
+      </div>
+
+      <hr />
+
+      <div class="ng-add">
+        <p>
+          <span class="has-text-weight-bold">
+            <a href="https://angular.io/cli/version" target="_blank">ng add</a>
+            [MODULE/PACKAGE_NAME]:
+          </span>
+          <span class="is-capitalized">
+            Adds an NPM package and configures the "app.module.ts" file
+            accordingly for usage.</span
+          >
+        </p>
+        <h3 class="is-size-3">Usage</h3>
+        <div class="box terminal">$ ng add ng2-charts</div>
+      </div>
+
+      <hr />
+
+      <div class="ng-generate">
+        <p>
+          <span class="has-text-weight-bold">
+            <a href="https://angular.io/cli/generate" target="_blank"
+              >ng generate [WHAT_TO_GENERATE] [NAME]:</a
+            >
+          </span>
+          <span>
+            Some of the most commonly used "WHAT_TO_GENERATE" are component |
+            service | module | class. These are just some of the commands which
+            generate the boiler plate code for you. The "NAME" is the name of
+            the generated component or service or class or whatever. The
+            location is also determined where should be the generated
+            "WHAT_TO_GENERATE" be saved.
+          </span>
+        </p>
+        <h3 class="is-size-3">Usage</h3>
+        <div class="box terminal">
+          $ ng generate component components/my-component
+        </div>
+        <p>
+          This tells angular to generate a new component named "my-component"
+          and add it to the components/ directory in the "app" folder.
+        </p>
+
+        <div class="box terminal">
+          $ ng generate service services/my-service
+        </div>
+        <p>
+          This tells angular to generate a new service named "my-service" and
+          add it to the services/ directory in the "app" folder.
+        </p>
+      </div>
+
+      <hr />
+
+      <div class="ng-serve">
+        <p>
+          <span class="has-text-weight-bold">
+            <a href="https://angular.io/cli/serve" target="_blank">ng serve:</a>
+          </span>
+          <span class="is-capitalized">
+            Starts the live server on port 4200.</span
+          >
+        </p>
+        <h3 class="is-size-3">Usage</h3>
+        <div class="box terminal">$ ng serve</div>
+      </div>
+    </div>
+  </body>
+</html>
