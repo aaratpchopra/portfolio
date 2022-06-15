@@ -28,7 +28,7 @@
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": [
               "src/styles.css",
-              "/Users/aarat/Documents/Code/Portfolio/portfolio-frontend/node_modules/bulma/css/bulma.min.css"
+              "./node_modules/bulma/css/bulma.min.css"
             ],
             "scripts": []
           },
